@@ -1,0 +1,32 @@
+.cartao-um{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border-radius: 5px;
+    border: solid 2px rgb(148, 148, 148);
+}
+.imagem-cartao-um{
+    height: auto;
+    width: 190px;
+    border-radius: 9px;
+}
+.info-cartao-um{
+    color: rgb(98, 94, 94);
+    word-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bt-cartao-um{
+    background-color: rgb(255, 221, 109);
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    border: none;
+    padding: 6px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}

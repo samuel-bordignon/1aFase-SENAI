@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div>
+        <div class="cabecairo">
+            <div class="container">
+                <img src="logo.png" alt="">
+            </div>
+            <a href="../termos/termos.html" class="help">Ajude-me</a>
+            <h1>Seja bem vindo!</h1>
+            <button onclick="login()"><strong>Login</strong></button>
+        </div>
+        <div class="info-pricipal">
+            <h2>Faça seu cadastro agora!</h2>
+            <div class="info-dois-um">
+                <div class="info-um">
+                    <label for="" id="nome">Nome: </label><br>
+                    <input type="text" placeholder="Digite seu nome"><br>
+                    <label for="">Sobrenome: </label><br>
+                    <input type="text" placeholder="Digite seu sobrenome"><br>
+                    <label for="">E-mail: </label><br>
+                    <input type="text" placeholder="Digite seu E-mail"><br>
+                </div>
+                <div class="info-dois">
+
+                    <label for="">Senha: </label><br>
+                    <input type="text" placeholder="Digite sua senha"><br>
+                    <label for="">Confirmar Senha: </label><br>
+                    <input type="text" placeholder="Digite sua senha novamente"><br>
+                    <label for="">Telefone: </label><br>
+                    <input type="text" placeholder="(xx) xxxx-xxxx"><br>
+
+                </div>
+
+            </div>
+            <div class="div-termos">
+                <input type="checkbox" class="termos" id="termos">
+                <p> Li e aceito os <a href="">termos de uso</a></p>
+            </div>
+
+            <button onclick="cadastrar()">continuar</button>
+
+        </div>
+
+
+
+
+
+    </div>
+<script src="cadastro.js"></script>
+
+</body>
+
+</html>

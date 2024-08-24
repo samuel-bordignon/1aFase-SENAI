@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.cartao{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    border: solid 2px rgb(153, 153, 153);
+    width: 22%;
+}
+.cartao h1{
+    color: blue;
+}
+.espaço{
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.imagem-cartao{
+    height: auto;
+    width: 190px;
+    border-radius: 9px;
+}
+.bt-cartao{
+    background-color: rgb(255, 221, 109);
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    border: none;
+    padding: 6px;
+}

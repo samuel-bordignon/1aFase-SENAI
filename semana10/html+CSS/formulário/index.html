@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="background-inpt">
+        <h2 class="title">Seja bem vindo! Por favor preencha os campos abaixo</h2>
+        <div class="foto-inputs">
+            <div class="inputs">
+                <label class="label-info">Nome de usuário</label><br><input type="text" class="informacoes" id="nome-usuario"><br>
+                <label class="label-info">Senha:</label><br><input type="password" class="informacoes" id="senha-usuario"><br>
+                <label class="label-info">Seu email:</label><br><input type="email" class="informacoes" id="email-usuario"><br>
+                <label class="label-info">Sua data de nascimento</label><br><input type="date" class="informacoes" id="data-usuario"><br><br>
+                <p>Aceita receber notficações de atualizacções por e-mail?</p>
+                <label class="label-info">Não</label><input type="radio" class="radio" name="sim" value="nao-receber" id="nao-receber">
+                <label class="label-info">sim</label><input type="radio" class="radio" name="sim" value="receber" id="receber"><br>
+                <label class="label-info">li e aceito os <a href="termos.html">termos de uso</a></label><input type="checkbox" id="termos">
+
+            </div>
+            <div class="div-perfil">
+                <img src="sorriso.png" alt="" class="img-perfil">
+            </div>
+        </div>
+        <div class="div-botao">
+            <button onclick="mostraDados()" class="botao-enviar">enviar</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

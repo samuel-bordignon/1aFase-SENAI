@@ -1,0 +1,41 @@
+programa {
+  funcao inicio() {
+ //Na sua lista de compras do mercado, constam apenas 3 itens: arroz, batata palha e um suco de garrafa. Por�m, voc� possui apenas uma nota de R\$100 para pagar. Fa�a um programa no qual sejam digitados os valores dos itens e mostre na tela valor que voc� deve receber (troco).$0
+  
+  // definindo variaveis
+  real arroz
+  real batataPalha
+  real garrafaDeSuco
+  real saldo = 100.00
+  real somaItens 
+  real troco
+  real gasto
+//entrada de dados
+
+  escreva("digite o valor do arroz: ")
+  leia(arroz)
+
+  escreva("digite o valor do arroz: ")
+  leia(batataPalha)
+
+  escreva("digite o valor do arroz: ")
+  leia(garrafaDeSuco)
+  
+  //caululos 
+  
+  somaItens = arroz + batataPalha + garrafaDeSuco
+  troco = saldo - somaItens
+  
+  
+
+//saida de dados 
+  escreva("pre�o do arroz: R$ ", arroz, "\n")
+  escreva("pre�o da batata palha: R$ ", batataPalha, "\n")
+  escreva("pre�o do suco 1 L: R$ ", garrafaDeSuco, "\n")
+  escreva("valor total: R$ ", somaItens, "\n")
+  escreva("saldo: R$ ", saldo, "\n")
+  escreva("troco: R$ ", troco, "\n")
+  escreva("total gasto: R$ ", somaItens,"\n")
+   
+ }
+}

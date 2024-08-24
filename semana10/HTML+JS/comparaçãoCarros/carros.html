@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>comparação de carros</title>
+</head>
+
+<body>
+
+    <center>
+        <div class="uu">
+            <h1>Comparador de carros</h1>
+
+        </div>
+        <div class="ii">
+            <div class="tabela-carros">
+                <h4>Carro 1</h4><br>
+                <h4>Carro 2</h4><br>
+                <h4>Carro 3</h4><br>
+            </div>
+            <div class="ee">
+                <div>
+                    <label>Economia</label><br>
+                    <input type="number" min="0" max="10" class="tabela" id="economia-carro-um"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="economia-carro-dois"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="economia-carro-tres"><br>
+                </div>
+                <div>
+                    <label>Conforto</label><br>
+                    <input type="number" min="0" max="10" class="tabela" id="conforto-carro-um"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="conforto-carro-dois"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="conforto-carro-tres"><br>
+                </div>
+                <div>
+                    <label>Desing</label><br>
+                    <input type="number" min="0" max="10" class="tabela" id="desing-carro-um"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="desing-carro-dois"><br>
+                    <input type="number" min="0" max="10" class="tabela" id="desing-carro-tres"><br>
+                </div>
+                <div>
+                    <label>Média</label><br>
+                    <input type="number" min="0" max="10" readonly class="tabela" id="media-carro-um"><br>
+                    <input type="number" min="0" max="10" readonly class="tabela" id="media-carro-dois"><br>
+                    <input type="number" min="0" max="10" readonly class="tabela" id="media-carro-tres"><br>
+                </div>
+            </div>
+        </div>
+        <div class="tt">
+            <label>Melhor carro </label><input type="text" readonly id="melhor-carro">
+            <button onclick="oo()">COMPARAR</button>
+        </div>
+
+<script src="carros.js"></script>
+</body>
+
+</html>

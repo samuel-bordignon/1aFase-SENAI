@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Tower Defense</title>
+</head>
+<body>
+    <center>
+        <h1>Defenda a torre</h1>
+        <label>Estrutura da torre &nbsp;&nbsp;&nbsp;</label><input id="vida-torre" readonly value="100" type="number" min="0" max="100"><br>
+        <label>Destruir&nbsp;&nbsp;&nbsp;</label><input id="inptUm" type="number" min="0" max="100">
+        <button onclick="aplicarDano()">-</button><br>
+        <label>Construir&nbsp;&nbsp;&nbsp;</label><input id="inptDois" type="number" min="0" max="100">
+        <button onclick="aplicarCura()">+</button><br>
+        <label>Siuação da torre </label><input id="status-torre" readonly value="ATIVA" type="text">
+    </center>
+    <script src="torre.html"></script>
+</body>
+</html>

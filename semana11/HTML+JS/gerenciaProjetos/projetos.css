@@ -1,0 +1,11 @@
+#container{
+    border: solid;
+}
+.inputs{
+    display: flex;
+    border: solid red;
+
+}
+.nomes-projetos{
+    border: solid blue;
+}

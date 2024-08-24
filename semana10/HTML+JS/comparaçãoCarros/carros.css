@@ -1,0 +1,40 @@
+.ee{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 8%;
+    
+}
+.ii{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+   
+    
+}
+.tabela{
+    margin-top: 97%;
+    align-items: 5%;
+    justify-content: space-around
+
+}
+.tabela-carros{
+    margin-top: 6%;
+    height: fit-content;
+    margin-top: 31%;
+    
+}
+.uu{
+    margin-left: 13%;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+.tt{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 13%;
+
+}

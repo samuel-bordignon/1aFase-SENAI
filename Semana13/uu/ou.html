@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ju.css">
+    <title>Criar Nova Lista</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Criar Nova Lista</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="lo.html">Página Principal</a></li>
+                <li><a href="ju.html">Ver Listas Anteriores</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form id="new-list-form">
+                <label for="list-name">Nome da Lista:</label>
+                <input type="text" id="list-name" name="list-name" required>
+                
+                <label for="list-items">Itens:</label>
+                <textarea id="list-items" name="list-items" required></textarea>
+                
+                <button type="submit">Salvar Lista</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Minhas Listas de Compras</p>
+        </footer>
+    </div>
+    <script src="ju.js"></script>
+</body>
+</html>

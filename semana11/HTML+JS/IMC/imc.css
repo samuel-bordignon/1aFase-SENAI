@@ -1,0 +1,9 @@
+.um{
+    width: 70%;
+    border: solid;
+    display: block;
+    
+}
+.um label{
+    justify-content: space-between;
+}

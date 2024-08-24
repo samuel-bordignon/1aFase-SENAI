@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de compras</title>
+</head>
+<body>
+    <center>
+        <h1>Desconto em produtos</h1>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descrição &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantidade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <input type="text" placeholder="produto 1"> <input type="number" id="quantidade-produto-um"> <input type="number" id="valor-produto-um"><br>
+        <input type="text" placeholder="produto 2"> <input type="number" id="quantidade-produto-dois"> <input type="number" id="valor-produto-dois"><br>
+        <input type="text" placeholder="produto 3"> <input type="number" id="quantidade-produto-tres"> <input type="number" id="valor-produto-tres"><br>
+        <input type="text" placeholder="produto 3"> <input type="number" id="quantidade-produto-quatro"> <input type="number" id="valor-produto-quatro"><br><br><br>
+        <label>Percentual de desconto</label><input type="number" min="0" max="100" id="percentual-desconto"><br><br>
+        <button onclick="calculaDesconto()">CALCULAR</button><input type="number" id="valor-final" readonly>
+    </center>
+    <script src="listaCompras.js"></script>
+    
+</body>
+</html>

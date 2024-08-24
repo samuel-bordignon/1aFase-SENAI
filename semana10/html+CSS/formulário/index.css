@@ -1,0 +1,83 @@
+.titulo{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style:inherit;
+    text-align: center;
+}
+body{
+    background-color: cadetblue;
+    background-image: url(kurzgesagt.webp);
+    background-size: cover;
+}
+.background-inpt{
+    margin:auto;
+    border-radius: 5px;
+    background-color: #3e4145;
+    padding: 20px;
+    justify-content: center center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-top: 8%;
+}
+.informacoes{
+    width: 370px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: #23272a;
+    background-color: rgb(43, 47, 56);
+    color: #c0bebe;
+}
+.inputs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.title{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+.foto-inputs{
+    display: flex;
+}
+.label-info{
+    color: #cecdcd;
+}
+.img-perfil{
+    width: 180px;
+    height: 180px;
+}
+a{
+    color: cadetblue;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(151, 151, 151);
+}
+.radio{
+    margin-bottom: 3%;
+}
+.botao-enviar{
+    border-radius: 5px;
+    border-color: #23272a;
+    background-color: rgb(43, 47, 56);
+    color: #c0bebe;
+}
+
+.div-botao{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+    margin-left: 85%;
+    width: fit-content;
+
+}
+
+.div-perfil{
+    display: block;
+    margin-bottom: 100px;
+}
+
